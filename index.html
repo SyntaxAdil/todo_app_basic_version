@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo APP || Abdur Rahman Adil</title>
+    <!-- link fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Todo Section start -->
+    <section class="todo_container">
+      <!-- todo titles -->
+      <h1 class="title-text">Todo List</h1>
+      <p class="subtitle-text">Track, Complete, Achieve</p>
+
+      <!-- todo main container -->
+      <div class="todo-main-container">
+        <!-- todo input -->
+
+        <form id="todo-form">
+          <div class="todo-form-control">
+            <input
+              type="text"
+              id="todo-input"
+              placeholder="Enter your task"
+              autocomplete="off"
+            />
+            <button id="todo-add-btn" type="button" role="button">Add</button>
+          </div>
+        </form>
+
+        <!-- todo container -->
+        <div class="todo-container">
+          <!-- task container -->
+          <div id="task-container">
+            <!-- todo task here -->
+          </div>
+          <strong id="noTodoMssg">No chores for now !</strong>
+        </div>
+      </div>
+      <small id="copy">&copy; Abdur Rahman Adil</small>
+    </section>
+
+    <!-- todo contianer end -->
+
+    <!-- JS  -->
+    <script src="script.js"></script>
+  </body>
+</html>
